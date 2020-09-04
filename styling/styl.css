@@ -1,0 +1,212 @@
+@import "content/fonts/Copse/Copse-Regular.ttf";
+
+@font-face {
+  src: url('content/fonts/Copse/Copse-Regular.ttf');
+  font-family: Co;
+}
+
+#navItem .nav-link {
+  font-family: 'Roboto', sans-serif;
+}
+
+#nav {
+  background: #A4BFFF;
+  /* position: sticky;
+  top:0px;
+  z-index: 100; */
+}
+
+#navItem .nav-link:hover {
+  color: #000080;
+  background: #539EFF;
+  border-radius: 5px;
+}
+
+#navBrand {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+/* Tittle page Here */
+#tittlePage {
+  background: rgba(236, 255, 251, 1);
+  op
+}
+
+#tittlePage .backimage {}
+
+#tittleContent .h3 {}
+
+#tittleContent p {
+  font-family: 'Permanent Marker', cursive;
+}
+
+#tittleContent a {
+  border-radius: 10px;
+  border-bottom: 2px solid;
+  font-family: 'Copse', serif;
+}
+
+#tittleContent .btn:hover {
+  background: #060608;
+  color: white
+}
+
+/* inspire page Here */
+#inspire {
+  border: 1px solid black;
+  background: #151915;
+  color: white;
+}
+
+#inspire .contentIn {
+  padding: rem;
+}
+
+#inspire .contentIn h4 {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 6rem;
+  padding-bottom: 1rem;
+}
+
+#inspire .contentIn p {
+  font-family: 'Copse'cursive;
+  font-size: 0.9rem;
+  -webkit-text-shadow: white 0.3rem 1px 0.3rem;
+  text-shadow: white 0.3rem 1px 0.3rem;
+}
+
+.imgIn img {
+  height: auto;
+}
+
+.imgIn span {
+  font-family: 'Roboto', serif;
+  font-size: 1.3rem;
+}
+
+/* CheckOut Here */
+#checkOut {
+  background-color: white;
+  color: #ecf0f1;
+  font-family: 'Copse', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#checkOut .headCh span {
+  border-bottom: 2px solid black;
+  padding: 1rem;
+  color: black;
+}
+
+#tec {
+  position: relative;
+  top: 0px;
+  overflow: hidden;
+  transition: 1s;
+}
+
+#tec>.imgTittle1 {
+  position: absolute;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  background: black;
+  transition: bottom 1s;
+  border-radius: 10px;
+}
+
+#tec:hover .imgTittle1, .tech {
+  top: 0%;
+  left: 1%;
+}
+
+/* end checkOut */
+#footerSec {
+  background: #ecfffb;
+}
+
+#socialLinks {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#socialLinks>.icon {
+  display: flex;
+  justify-content: flex-end;
+  align-self: center;
+}
+
+#socialLinks>.icon i {
+  margin: 0.6rem;
+  background: black;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 6px;
+}
+
+/*  Background-Images*/
+#backGround {
+  background: #1B262C;
+}
+
+#backGround svg {
+  height:20vh;
+  width: 100%;
+  stroke: red;
+  stroke-width: 2px;
+  stroke-dasharray: 10px;
+  stroke-dashoffset: 20px;
+  -moz-animation:;
+  animation:none;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+}
+.backfront{
+  height: inherit;
+  width: inherit;
+  background: url("../content/backimg.jpg");
+  background-position: left bottom;
+  background-attachment: fixed;
+  background-size:cover;
+}
+#backFrontText img{
+width: 100%;
+height: auto;
+object-fit: cover;
+object-position: right top;
+/* border:1px solid red; */
+border-radius:3%;
+}
+#backFrontText .text-center{
+  color: #A4BFFF ;
+}
+ @keyframes name {
+  0% {
+    stroke-dashoffset: 20px;
+    s
+  }
+
+  25% {
+    stroke-dashoffset: 50px;
+    stroke:lime;
+  }
+
+  50% {
+    stroke-dashoffset: 100px;
+    stroke:cyan;
+  }
+
+  75% {
+    stroke-dashoffset: 50px;
+    stroke:white;
+  }
+
+  100% {
+    stroke-dashoffset: 20px;
+    stroke:red;
+  }
+}
